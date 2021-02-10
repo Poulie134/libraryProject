@@ -1,0 +1,37 @@
+.bookBox{
+    display:grid;
+    grid-template-areas:
+        'titlef title'
+        'authorf author'
+        'pagesf pages'
+        'statusf status'
+        'btn1 btn2';
+    background-color: burlywood;
+    height: 300px;
+    width: 200px;
+    border-radius: 40px;
+    margin:20px;
+    padding:5%;
+    text-justify: auto;
+    font-size: 15px;
+}
+#holder{
+    display: flex;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+.title{grid-area: title;}
+.titlef{grid-area: titlef;}
+.author{grid-area: author;}
+.authorf{grid-area: authorf;}
+.pages{grid-area: pages;}
+.pagesf{grid-area: pagesf;}
+.status{grid-area: status;}
+.statusf{grid-area: statusf;}
+.btn1{grid-area: btn1;
+    border-radius: 10px;}
+.btn2{grid-area: btn2;
+    border-radius: 10px}
